@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>Three.js</title>
+
+    </head>
+
+    <body>
+        <link rel="stylesheet" href="Main.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="js/three.min.js"></script>
+        <script async src="https://cdn.jsdelivr.net/npm/three@0.101.1/examples/js/controls/OrbitControls.js"></script>
+        <script src="https://unpkg.com/three@0.126.1/examples/js/loaders/GLTFLoader.js"></script>
+        <script src="js/stats.module.js"></script>
+        <main class="fadein">
+            <section id="loading-screen" class="fadeout">
+This is a 3d Prototype site by Vincenzo Ruscillo / The ball in the centrum can be any 3D Model- Press the ball for the menu 
+        
+            </section>
+            
+            <button class="menubutton"></button>
+            <h1 class="head">Vincent Rush</h1>
+            <nav class="menu">
+                    <ul class="navbar">
+                    <li class="nav-item"><a href="Home.aspx" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="Registra.aspx" class="nav-link">Registra</a></li>
+                    <li class="nav-item"><a href="Elenco.aspx" class="nav-link">Elenco</a></li>
+                    <li class="nav-item"><a href="Contact.aspx" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="Home.aspx" class="nav-link">Team</a></li>
+                </ul>
+                
+            </nav>
+            
+            <section class="describe" data-aos="fade-left" 
+            data-aos-easing="linear" data-aos-duration="2300" >
+                <h2>Scroll Down</h2>
+            
+                <p >Epigraphia è un progetto lungimirante nato per superare barriere che sembrano insormontabili per gli autori offrendo tempi snelli, ottima visibilità con una collaborazione editoriale partecipativa alle spese e coinvolgendo lo scrittore in ciascuna fase di sviluppo della sua opera.
+                    La casa editrice presta attenzione sia allo stile di scrittura che alla storia ma anche al modo in cui viene raccontata cercando di stabilire, attraverso le pubblicazioni, un rapporto di rispetto con il lettore.
+                    Su questo sito è possibile trovate tutte le opere: ebook e libri acquistabili direttamente. Esso però non ha solo una vocazione commerciale bensì vuole essere uno strumento di documentazione e di testimonianza. Viviamo in un’epoca dove tutto e svilito, dove il presente sovrasta il passato, dove la vita media dei libri è di pochi mesi.</p>
+            </section>
+            <section class="describe2" data-aos="fade-right" 
+            data-aos-easing="ease-in-sine" data-aos-duration="2300">
+                <h2>Scroll Down</h2>
+                <p>Epigraphia è un progetto lungimirante nato per superare barriere che sembrano insormontabili per gli autori offrendo tempi snelli, ottima visibilità con una collaborazione editoriale partecipativa alle spese e coinvolgendo lo scrittore in ciascuna fase di sviluppo della sua opera.
+                    La casa editrice presta attenzione sia allo stile di scrittura che alla storia ma anche al modo in cui viene raccontata cercando di stabilire, attraverso le pubblicazioni, un rapporto di rispetto con il lettore.
+                    Su questo sito è possibile trovate tutte le opere: ebook e libri acquistabili direttamente. Esso però non ha solo una vocazione commerciale bensì vuole essere uno strumento di documentazione e di testimonianza. Viviamo in un’epoca dove tutto e svilito, dove il presente sovrasta il passato, dove la vita media dei libri è di pochi mesi.</p>
+            </section>
+            <section data-aos="zoom-up" class="vaisotto">
+                
+                <h2>Changing Objects Position</h2>
+                <p>The cubes position is now changing</p>
+            </section>
+
+
+            <section data-aos="zoom-up">
+                <h2>Changing Objects Rotation</h2>
+                <p>The cubes rotation is now changing</p>
+                
+            </section>
+        
+            <div>
+            <section class="video" data-aos="zoom-up">
+                <div class="box" data-aos="fade-right">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <video class="video2"controls data-aos="fade-right">
+
+                    <source src="/media/cc0-videos/flower.webm"
+                            type="video/webm">
+                </video>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <video class="video3"controls data-aos="fade-right">
+
+                    <source src="/media/cc0-videos/flower.webm"
+                            type="video/webm">
+                </video>
+                </div>
+                <div class="box" data-aos="fade-right">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <video class="video4"controls data-aos="fade-right">
+
+                    <source src="/media/cc0-videos/flower.webm"
+                            type="video/webm">
+                </video>
+                </div>
+                
+            </section>
+        </div>
+        
+
+          
+            <section  data-aos="fade-up" >
+                <div class="describe3"  data-aos="fade-left" >
+                    <h2>Changing Camera Position</h2>
+                    <p>Epigraphia è un progetto lungimirante nato per superare barriere che sembrano insormontabili per gli autori offrendo tempi snelli, ottima visibilità con una collaborazione editoriale partecipativa alle spese e coinvolgendo lo scrittore in ciascuna fase di sviluppo della sua opera.
+                        La casa editrice presta attenzione sia allo stile di scrittura che alla storia ma anche al modo in cui viene raccontata cercando di stabilire, attraverso le pubblicazioni, un rapporto di rispetto con il lettore.
+                        Su questo sito è possibile trovate tutte le opere: ebook e libri acquistabili direttamente. Esso però non ha solo una vocazione commerciale bensì vuole essere uno strumento di documentazione e di testimonianza. Viviamo in un’epoca dove tutto e svilito, dove il presente sovrasta il passato, dove la vita media dei libri è di pochi mesi.</p>
+                    </div>
+                    <div class="describe4" data-aos="fade-right" >
+                        <h2>Changing Camera Position</h2>
+                        <p>Epigraphia è un progetto lungimirante nato per superare barriere che sembrano insormontabili per gli autori offrendo tempi snelli, ottima visibilità con una collaborazione editoriale partecipativa alle spese e coinvolgendo lo scrittore in ciascuna fase di sviluppo della sua opera.
+                            La casa editrice presta attenzione sia allo stile di scrittura che alla storia ma anche al modo in cui viene raccontata cercando di stabilire, attraverso le pubblicazioni, un rapporto di rispetto con il lettore.
+                            Su questo sito è possibile trovate tutte le opere: ebook e libri acquistabili direttamente. Esso però non ha solo una vocazione commerciale bensì vuole essere uno strumento di documentazione e di testimonianza. Viviamo in un’epoca dove tutto e svilito, dove il presente sovrasta il passato, dove la vita media dei libri è di pochi mesi.</p>
+                    </div>
+            </section>
+            
+
+            <section>
+                <h2>You are at the bottom</h2>
+                <p>The cube will now be auto rotating</p>
+                <p>
+                    Now you can scroll back to the top to reverse the animation
+                </p>
+            </section>
+            <footer class="footer-distributed">
+
+                <div class="footer-left">
+    
+                    <h3>Vincent<span>Rush</span></h3>
+    
+                    <p class="footer-links">
+                        <a href="#" class="link-1">Home</a>
+                        
+                        <a href="#">Blog</a>
+                    
+                        <a href="#">Pricing</a>
+                    
+                        <a href="#">About</a>
+                        
+                        <a href="#">Faq</a>
+                        
+                        <a href="#">Contact</a>
+                    </p>
+    
+                    <p class="footer-company-name">Vicent Rush © 2022</p>
+                </div>
+    
+                <div class="footer-center">
+    
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>4675 Frankfurt</span>Beach, Germany</p>
+                    </div>
+    
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>+1.555.555.5555</p>
+                    </div>
+    
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                    </div>
+    
+                </div>
+    
+                <div class="footer-right">
+    
+                    <p class="footer-company-about">
+                        <span>About the company</span>
+                        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                    </p>
+    
+                    <div class="footer-icons">
+    
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+    
+                    </div>
+    
+                </div>
+    
+            </footer>
+        </main>
+        
+        <script src="menu.js"></script>
+        <script type="module" src="client.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+    </body>
+</html>
